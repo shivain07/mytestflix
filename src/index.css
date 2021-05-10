@@ -1,13 +1,277 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+color: azure;
+  text-align: center;
+}
+button{
+  margin: auto 50%;
+
+}
+.myform{
+
+  margin-top: 70px;
+  margin: auto 50%;
+  outline: blue;
+
+}
+.box{
+  
+  width: 30vw;
+  /* height: 40vh; */
+  border-radius: 5px;
+  border: 3px solid tomato;
+}
+.btn{
+  color: aquamarine;
+  background-color: tomato;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.btn:hover{
+  color: rgb(40, 75, 63);
+  background-color: violet;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.link.active{
+  color: rgb(240, 12, 153);
+  /* border-bottom: blue 2px; */
+}
+.pagecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0c0c;
+}
+
+.pagecontainer h1{
+  
+  color:azure;
+  /* background-color: #001f3f; */
+  width: 100%;
+}
+
+.pagecontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+.net-category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbarLinks{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #070707;
+}
+.link{
+  font-size: x-large;
+  color: azure;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-tag{
+  border: 2px solid red;
+  border-radius: 7px;
+  height: 18rem;
+  width: 15rem;
+  margin: 1.2rem;
+ background-color: black;
+ position: relative;
+}
+.card-tag:hover{
+
+  border: 2px solid rgb(149, 235, 11);
+  border-radius: 10px;
+}
+.card-tag img{
+  height: 18rem;
+  width: 15rem;
+}
+.card-tag h2{
+  color: azure;
+  font-size: large;
+  font-weight: bold;
+  left: 30%;
+  bottom: 0%;
+  position:absolute
+  
+
+}
+.net-category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.card-parent{
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  margin: 1.5rem 1.5rem;
+  
+  align-items: center;
+  
+}
+
+.slider{
+  width: 100vw;
+  height: 70vh;
+  background-image: url('i2.jpeg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  animation: slider 10s infinite linear ;
+}
+
+@keyframes slider {
+  0% { background-image: url('netfliximg.png');}
+  55%{ background-image: url('i2.jpeg');}
+  100%{ background-image: url('i3.jpeg');}
+}
+
+.searchdiv{
+  margin-left: 6rem;
+  margin-top: 6rem;
+}
+.searchbox{
+  padding: 3px;
+  border: 2px solid rgb(20, 16, 231);
+  
+  /* margin-left: 6rem;
+  margin-top: 6rem; */
+}
+.searchbox:hover{
+  border: 2px solid rgb(6, 192, 6);
+ /* box-shadow: 4px 4px 4px wheat; */
+}
+
+
+@media screen and (max-width: 830px) {
+ 
+
+  .slider{
+    width: 100vw;
+    height: 40vh;
+
+  }
+    .card-tag{
+
+      height: 17rem;
+      width: 14rem;
+  
+    }
+    .card-tag img{
+      height: 17rem;
+      width : 14rem;
+    }
+}
+@media screen and (max-width: 770px) {
+ 
+
+    .card-tag{
+
+      height: 16.5rem;
+      width: 13.5rem;
+  
+    }
+    .card-tag img{
+      height: 16.5rem;
+      width: 13.5rem;
+    }
+}
+@media screen and (max-width: 580px) {
+  
+  .slider{
+    width: 100vw;
+    height: 30vh;
+
+  }
+ 
+ .link{
+      font-size: medium;
+
+    }
+    .card-tag{
+
+      height: 15rem;
+      width:  12rem;
+  
+    }
+    .card-tag img{
+      height: 15rem;
+      width : 12rem;
+    }
+}
+@media screen and (max-width: 520px) {
+ 
+ 
+    .card-tag{
+
+      height: 13.9rem;
+      width:  10.9rem;
+  
+    }
+    .card-tag img{
+      height: 13.9rem;
+      width : 10.9rem;
+    }
+}
+@media screen and (max-width: 470px) {
+ 
+ 
+    .card-tag{
+
+      height: 13rem;
+      width:  10rem;
+  
+    }
+    .card-tag img{
+      height: 13rem;
+      width : 10rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+ 
+ .link{
+      font-size: small;
+ 
+    }
+    .card-tag{
+      
+      height: 12rem;
+      width: 9rem;
+   
+ 
+    }
+    .card-tag img{
+      height: 12rem;
+      width: 9rem;
+    }
 }
