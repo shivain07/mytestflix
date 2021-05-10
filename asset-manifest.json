@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mytestflix/static/css/main.81d3ec46.chunk.css",
+    "main.js": "/mytestflix/static/js/main.ccfa2608.chunk.js",
+    "main.js.map": "/mytestflix/static/js/main.ccfa2608.chunk.js.map",
+    "runtime-main.js": "/mytestflix/static/js/runtime-main.35c7c033.js",
+    "runtime-main.js.map": "/mytestflix/static/js/runtime-main.35c7c033.js.map",
+    "static/js/2.665312c9.chunk.js": "/mytestflix/static/js/2.665312c9.chunk.js",
+    "static/js/2.665312c9.chunk.js.map": "/mytestflix/static/js/2.665312c9.chunk.js.map",
+    "index.html": "/mytestflix/index.html",
+    "static/css/main.81d3ec46.chunk.css.map": "/mytestflix/static/css/main.81d3ec46.chunk.css.map",
+    "static/js/2.665312c9.chunk.js.LICENSE.txt": "/mytestflix/static/js/2.665312c9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mytestflix/static/media/i3.d584d50b.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35c7c033.js",
+    "static/js/2.665312c9.chunk.js",
+    "static/css/main.81d3ec46.chunk.css",
+    "static/js/main.ccfa2608.chunk.js"
+  ]
+}
